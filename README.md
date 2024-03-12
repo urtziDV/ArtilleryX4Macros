@@ -1,14 +1,5 @@
 Manual de Configuración de Macros para Artillery X4 por @UrtziDV	v1.1
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.001.png)
-
-
-
-
-
-
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.002.png)![Forma
-
 Descripción generada automáticamente con confianza media](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.003.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.004.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.005.png)
 # Contenido
 [BACKUP DE PRINTER.CFG	2](#_toc161178470)
@@ -45,31 +36,20 @@ Descripción generada automáticamente con confianza media](Aspose.Words.5423433
 ## <a name="_toc161160885"></a><a name="_toc161178470"></a>BACKUP DE PRINTER.CFG
 Acceder a *Fluidd* a través de un navegador web, poniendo la dirección IP de la impresora y realizar una copia de seguridad del archivo **printer.cfg**
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.006.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.007.png)![Captura de pantalla de un celular
-
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.008.png)
 ## <a name="_toc161160886"></a><a name="_toc161178471"></a>AÑADIR MACROS.CFG Y VARIABLES.CFG
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.009.png)![ref1]Desde *Fluidd* pulsar sobre el icono “+” y seleccionar Subir. Posteriormente ir a la ruta donde tengas almacenado los archivos **macros.cfg** y **variables.cfg** anteriormente descargados y selecciónalos.  ![Interfaz de usuario gráfica, Aplicación
+Desde *Fluidd* pulsar sobre el icono “+” y seleccionar Subir. Posteriormente ir a la ruta donde tengas almacenado los archivos **macros.cfg** y **variables.cfg** anteriormente descargados y selecciónalos.  ![Interfaz de usuario gráfica, Aplicación
 
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.011.png)
-
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.012.png)![ref2]![ref2]![Interfaz de usuario gráfica, Texto, Aplicación
 
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.014.png)
 ## <a name="_toc161178472"></a>EDITAR EL ARCHIVO PRINTER.CFG
 Acceder a *Fluidd* a través de un navegador web, poniendo la dirección IP de la impresora.  Seleccionar el archivo **printer.cfg** y pulsar sobre editar. 
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.015.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.016.png)![ref1]![Captura de pantalla de un celular
-
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.017.png)
-
-
 ### <a name="_toc161178473"></a>AÑADIR LLAMADA A MACROS.CFG
 Añadir la llamada al archivo **macros.cfg** escribiendo lo siguiente:
 
 [include macros.cfg]
-
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.018.png)![Interfaz de usuario gráfica, Texto, Aplicación
 
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.019.png)
 ### <a name="_toc161178474"></a>ELIMINAR LOS GCODE\_MACRO
@@ -107,7 +87,6 @@ speed: 50                                   *# Velocidad de mov
 
 screw\_thread: CW-M4                         *# Seleccionar metrica del tornillo de las ruedas de ajuste de la cama. M3=3mm / M4=4mm / M5=5mm. Ejemplo CW-M4 para metrica 4.*
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.020.png)![Interfaz de usuario gráfica, Texto, Aplicación
 
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.021.png)
 ### <a name="_toc161178476"></a>AÑADIR EXCLUDE\_OBJECTS
@@ -122,23 +101,14 @@ Editando el **GCODE\_ARCS** se consigue aumentar la resolución de las piezas re
 
 resolution: 0.1
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.022.png)![Texto
-
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.023.png)
 
 
 ### <a name="_toc161178478"></a>CORREGIR EL CENTRADO DE LA CAMA
 Si la cama de tu X4 está descentrada respecto al eje X, puedes corregirlo editando el apartado **[stepper x**], en este caso el valor original era -6 y se cambió a -8.
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.024.png)![Texto
-
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.025.png)
-
 - **Tras realizar cualquier cambio en los ficheros printer.cfg o macros.cfg, es necesario SIEMPRE, reiniciar el Firmware.**
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.026.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.027.png)![Captura de pantalla de computadora
-
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.028.png)
 ## <a name="_toc161178479"></a>ACTIVAR WEBCAM POR USB (OPCIONAL)
 Si se desea poder ver el estado de la impresión desde *Fluidd* a través de una WebCam, es necesario seguir los siguientes pasos:
 
@@ -166,10 +136,6 @@ Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf
 ### <a name="_toc161178480"></a>AJUSTAR EL ARCHIVO WEBCAM.TXT
 En el archivo webcam.txt, buscar la línea que pone #camera="auto" y quitar la #. Tiene que quedar asi: camera="auto". También se puede ajustar la resolución de la imagen más abajo, con diferentes resoluciones ya preconfiguradas.
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.030.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.031.png)![Interfaz de usuario gráfica, Texto
-
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.032.png)
-
 
 ## <a name="_toc161178481"></a>AJUSTAR G-CODE DE LA IMPRESORA
 Para un correcto funcionamiento, es necesario añadir el siguiente código en el Inicio y Fin de la impresión.
@@ -190,8 +156,6 @@ Para un correcto funcionamiento, es necesario añadir el siguiente código en el
 
 *PRINT\_END*
 
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.033.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.034.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.035.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.036.png)
-
 
 ## <a name="_toc161178482"></a>AJUSTAR G-CODE DEL FILAMENTO
 Para un correcto funcionamiento, es necesario añadir el siguiente código en el Inicio y Fin de la impresión.
@@ -205,8 +169,6 @@ Para un correcto funcionamiento, es necesario añadir el siguiente código en el
 *; Filament-specific end gcode* 
 
 *;END gcode for filament*
-
-![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.037.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.038.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.039.png)![Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico
 
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.040.png)
 
