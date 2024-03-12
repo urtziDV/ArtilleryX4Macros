@@ -39,8 +39,6 @@ Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf
 ## <a name="_toc161160886"></a><a name="_toc161178471"></a>AÑADIR MACROS.CFG Y VARIABLES.CFG
 Desde *Fluidd* pulsar sobre el icono “+” y seleccionar Subir. Posteriormente ir a la ruta donde tengas almacenado los archivos **macros.cfg** y **variables.cfg** anteriormente descargados y selecciónalos.  ![Interfaz de usuario gráfica, Aplicación
 
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.011.png)
-
 Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.014.png)
 ## <a name="_toc161178472"></a>EDITAR EL ARCHIVO PRINTER.CFG
 Acceder a *Fluidd* a través de un navegador web, poniendo la dirección IP de la impresora.  Seleccionar el archivo **printer.cfg** y pulsar sobre editar. 
@@ -64,7 +62,7 @@ Los datos de los SCREW corresponden al eje X e Y. Puede que sea necesario ajusta
 
 [screws\_tilt\_adjust]
 
-screw1: 57, 18				   *# Coordenadas del centro del tornillo de nivelacion 1 alineado con el sensor de nivelacion. Ajustar cada uno en su impresora.*
+screw1: 57, 18	                            *# Coordenadas del centro del tornillo de nivelacion 1 alineado con el sensor de nivelacion. Ajustar cada uno en su impresora.*
 
 screw1\_name: Tornillo Delantero Izquierdo
 
@@ -100,9 +98,6 @@ Editando el **GCODE\_ARCS** se consigue aumentar la resolución de las piezas re
 
 resolution: 0.1
 
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.023.png)
-
-
 ### <a name="_toc161178478"></a>CORREGIR EL CENTRADO DE LA CAMA
 Si la cama de tu X4 está descentrada respecto al eje X, puedes corregirlo editando el apartado **[stepper x**], en este caso el valor original era -6 y se cambió a -8.
 
@@ -123,8 +118,6 @@ Si se desea poder ver el estado de la impresión desde *Fluidd* a través de una
 \- Clave: makerbase
 
 ![Texto
-
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.029.png)
 
 1. Escribir: *sudo systemctl enable webcamd*
 1. Escribir: *sudo systemctl start webcamd*
@@ -169,19 +162,10 @@ Para un correcto funcionamiento, es necesario añadir el siguiente código en el
 
 *;END gcode for filament*
 
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.040.png)
-
 
 ## <a name="_toc161178483"></a>INSTALAR OCTOEVERYWHERE
 Para poder acceder a tu impresora desde cualquier parte del mundo, existe OctoEverywhere. Se puede controlar, y ver la impresión, además incluye una Inteligencia Artificial que controla mediante la cámara, en caso de tenerla instalada, el estado de la impresión y detectar si algo está yendo mal. Se puede usar en Android con OctoApp, y también se puede vincular con Telegram para que te mande notificaciones.
 
 [ENLACE](https://octoeverywhere.com/)
 
-![Una captura de pantalla de un celular
-
-Descripción generada automáticamente con confianza media](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.041.png)
-
 Github: <https://github.com/urtziDV/ArtilleryX4Macros>	Telegram: @ArtillerySidewinderX4
-
-[ref1]: Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.010.png
-[ref2]: Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.013.png
