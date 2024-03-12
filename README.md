@@ -1,4 +1,3 @@
-Manual de Configuración de Macros para Artillery X4 por @UrtziDV	v1.1
 # MODS MACROS
 
 - Todos los [gcode macro] metidos en archivo macros.cfg
