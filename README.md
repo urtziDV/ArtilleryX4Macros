@@ -1,6 +1,5 @@
 Manual de Configuración de Macros para Artillery X4 por @UrtziDV	v1.1
 
-Descripción generada automáticamente con confianza media](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.003.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.004.png)![](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.005.png)
 # Contenido
 [BACKUP DE PRINTER.CFG	2](#_toc161178470)
 
