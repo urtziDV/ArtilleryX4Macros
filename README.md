@@ -1,6 +1,24 @@
 Manual de Configuración de Macros para Artillery X4 por @UrtziDV	v1.1
+# MODS MACROS
 
-# Contenido
+- Todos los [gcode macro] metidos en archivo macros.cfg
+- El extrusor y la cama se calientan a la temperatura de la primera capa para la limpieza, de este modo despues de limpiar, no tiene que volver a ajustar temperaturas.
+- Posicion de espera hasta calentar el extrusor a un lateral de la cama, junto a la zona de purga, para que gotee fuera y ahorrar después movimientos.
+- Lineas de purgado junto al cepillo de limpieza, para ahorrar movimientos.
+- Bucle de limpieza con 8 pasadas sobre el cepillo, editable en macro NOZZLE_WIPE. Sustituir el (8) por el número deseado.
+- Comentarios en cada macro, explicando cada instrucción.
+- En la terminal de comandos se muestra cada inicio y fin de ejecucion de las macros.
+- Macro M600 para cambio de color. Gracias a @Spectrumaniaco 
+- Macro M420 para cargar la malla de nivelación grabada.
+- Macro para activar la tira de LEDs del puente. Gracias a @repuk420 
+- Al cancelar una impresion, ahora la cama sale fuera al igual que cuando se finaliza.
+- Funcion SCREW_TILT_ADJUST para calcular en formato horario, cuantas vueltas hay que darle a las ruedas de la cama para nivelarla a la perfección.
+- Añadida la exclusión de objetos, para poder cancelar la impresión de una pieza pero que siga con las demás. Gracias a @miguel_amat 
+- Miniatura de las piezas en Fluidd y en la pantalla de la Artillery.
+
+ANTES DE NADA, HACED UNA COPIA DE SEGURIDAD DE VUESTRO PRINTER.CFG
+
+# INSTRUCCIONES
 [BACKUP DE PRINTER.CFG	2](#_toc161178470)
 
 [AÑADIR MACROS.CFG Y VARIABLES.CFG	2](#_toc161178471)
