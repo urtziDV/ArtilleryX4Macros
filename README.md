@@ -1,5 +1,8 @@
 # MODS MACROS
 
+v1.2:
+- Añadido en macros.cfg el encendido automático de las luces del puente al iniciar una impresión, y apagado automático al terminar.
+v1.1:
 - Todos los [gcode macro] metidos en archivo macros.cfg
 - El extrusor y la cama se calientan a la temperatura de la primera capa para la limpieza, de este modo despues de limpiar, no tiene que volver a ajustar temperaturas.
 - Posicion de espera hasta calentar el extrusor a un lateral de la cama, junto a la zona de purga, para que gotee fuera y ahorrar después movimientos.
