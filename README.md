@@ -1,5 +1,7 @@
 # MODS MACROS
 
+Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
+
 v1.2:
 - Añadidos archivos para el control de los leds del puente. (switchsgantryleds, switchgantryon y switchgantryoff)
 - Añadido en macros.cfg el encendido automático de las luces del puente al iniciar una impresión, y apagado automático al terminar.
@@ -18,7 +20,7 @@ v1.1:
 - Al cancelar una impresion, ahora la cama sale fuera al igual que cuando se finaliza.
 - Funcion SCREW_TILT_ADJUST para calcular en formato horario, cuantas vueltas hay que darle a las ruedas de la cama para nivelarla a la perfección.
 - Añadida la exclusión de objetos, para poder cancelar la impresión de una pieza pero que siga con las demás. Gracias a @miguel_amat 
-- Miniatura de las piezas en Fluidd y en la pantalla de la Artillery.
+- Miniatura de las piezas en Fluidd y en la pantalla de la Artillery desde OrcaSlicer.
 
 ANTES DE NADA, HACED UNA COPIA DE SEGURIDAD DE VUESTRO PRINTER.CFG
 
