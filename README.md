@@ -56,11 +56,9 @@ ANTES DE NADA, HACED UNA COPIA DE SEGURIDAD DE VUESTRO PRINTER.CFG
 ## <a name="_toc161160885"></a><a name="_toc161178470"></a>BACKUP DE PRINTER.CFG
 Acceder a *Fluidd* a través de un navegador web, poniendo la dirección IP de la impresora y realizar una copia de seguridad del archivo **printer.cfg**
 
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.008.png)
 ## <a name="_toc161160886"></a><a name="_toc161178471"></a>AÑADIR MACROS.CFG Y VARIABLES.CFG
 Desde *Fluidd* pulsar sobre el icono “+” y seleccionar Subir. Posteriormente ir a la ruta donde tengas almacenado los archivos **macros.cfg** y **variables.cfg** anteriormente descargados y selecciónalos.  ![Interfaz de usuario gráfica, Aplicación
 
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.014.png)
 ## <a name="_toc161178472"></a>EDITAR EL ARCHIVO PRINTER.CFG
 Acceder a *Fluidd* a través de un navegador web, poniendo la dirección IP de la impresora.  Seleccionar el archivo **printer.cfg** y pulsar sobre editar. 
 
@@ -69,7 +67,6 @@ Añadir la llamada al archivo **macros.cfg** escribiendo lo siguiente:
 
 [include macros.cfg]
 
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.019.png)
 ### <a name="_toc161178474"></a>ELIMINAR LOS GCODE\_MACRO
 Eliminar todos los *[gcode\_macro]* del archivo **printer.cfg**, ya que ahora están en el **macros.cfg.** Hacer una búsqueda de gcode\_macro e ir eliminándolos hasta que indique que no hay ninguno. 
 
@@ -106,7 +103,6 @@ speed: 50                                   *# Velocidad de mov
 screw\_thread: CW-M4                         *# Seleccionar metrica del tornillo de las ruedas de ajuste de la cama. M3=3mm / M4=4mm / M5=5mm. Ejemplo CW-M4 para metrica 4.*
 
 
-Descripción generada automáticamente](Aspose.Words.54234333-afda-4e5a-b7e2-edf50eb4e2de.021.png)
 ### <a name="_toc161178476"></a>AÑADIR EXCLUDE\_OBJECTS
 Añadiendo **EXCLUDE\_OBJECTS** permite cancelar una de las piezas durante la impresión, sin que afecte al resto. Por ejemplo, si se están imprimiendo 4 cubos, pero uno de ellos se ha despegado, permite cancelar ese y seguir con los otros 3.
 
