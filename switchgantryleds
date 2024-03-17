@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+sled1status=$(cat /sys/class/gpio/gpio79/value)
+
+case $sled1status in
+0) echo "1" > /sys/class/gpio/gpio79/value;;
+1) echo "0" > /sys/class/gpio/gpio79/value;;
+*) echo "control sled1 failed.";;
+esac
