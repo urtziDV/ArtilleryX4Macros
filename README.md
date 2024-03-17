@@ -1,6 +1,7 @@
 # MODS MACROS
 
 v1.2:
+- Añadidos archivos para el control de los leds del puente. (switchsgantryleds, switchgantryon y switchgantryoff)
 - Añadido en macros.cfg el encendido automático de las luces del puente al iniciar una impresión, y apagado automático al terminar.
   
 v1.1:
