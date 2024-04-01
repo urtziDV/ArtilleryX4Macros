@@ -5,6 +5,12 @@ Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
 El perfil de OrcaSlicer ya incluye las configuraciones necesarias en los GCODE, por lo que solo funcionará si se realizan los MODS del manual.
 
 
+V1.4: (Solo actualización de Manual)
+- Añadido proceso de instalar e importar perfil en OrcaSlicer.
+- Explicación de como funciona la macro SCREWS_TILT_ADJUTS.
+- Explicación de como funciona EXCLUDE_OBJECTS.
+- Explicación de botones para encender/apagar leds del puente desde Fluidd.
+  
 V1.3
 - Se elimina en el archivo macros.cfg la llamada al archivo variables.cfg, ya no es necesario.
 - Se elimina el archivo variables.cfg, ya no es necesario.
