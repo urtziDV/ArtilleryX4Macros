@@ -155,11 +155,11 @@ samples_tolerance_retries: 3
 screw1: 57, 18                              # Coordenadas del centro de la rueda 1 de nivelacion alineado con el sensor. Ajustar si es necesario.
 screw1_name: Rueda Delantera Izquierda      # Nombre de la Rueda.
 screw2: 228, 18                             # Coordenadas del centro de la rueda 2 de nivelacion alineado con el sensor. Ajustar si es necesario.
-screw2_name: Rueda Delantero Derecha        # Nombre de la Rueda.
+screw2_name: Rueda Delantera Derecha        # Nombre de la Rueda.
 screw3: 228, 190                            # Coordenadas del centro de la rueda 3 de nivelacion alineado con el sensor. Ajustar si es necesario.
-screw3_name: Rueda Trasero Derecha          # Nombre de la Rueda.
+screw3_name: Rueda Trasera Derecha          # Nombre de la Rueda.
 screw4: 57, 190                             # Coordenadas del centro de la rueda 4 de nivelacion alineado con el sensor. Ajustar si es necesario.
-screw4_name: Rueda Trasero Izquierda        # Nombre de la Rueda.
+screw4_name: Rueda Trasera Izquierda        # Nombre de la Rueda.
 horizontal_move_z: 10
 speed: 50                                   # Velocidad de movimiento entre ruedas de niveacion.
 screw_thread: CW-M4                         # Seleccionar metrica del tornillo de las ruedas de ajuste de la cana. CW-M3=3mm / CW-M4=4mm / CW-M5=5mm.
