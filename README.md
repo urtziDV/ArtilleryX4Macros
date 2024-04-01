@@ -1,6 +1,7 @@
 # MODS MACROS
 
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
+El perfil de OrcaSlicer ya incluye las configuraciones necesarias en los GCODE, por lo que solo funcionará si se realizan los MODS del manual.
 
 V1.3
 - Se elimina en el archivo macros.cfg la llamada al archivo variables.cfg, ya no es necesario.
