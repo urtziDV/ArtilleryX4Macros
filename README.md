@@ -2,6 +2,15 @@
 
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
 
+V1.3
+- Se elimina en el archivo macros.cfg la llamada al archivo variables.cfg, ya no es necesario.
+- Se elimina el archivo variables.cfg, ya no es necesario.
+- Se añade el archivo plr.cfg con fallo de Artillery corregido por @repuk420 
+- Se añade el comando LOG_Z en la configuración del Gcode de la impresora, en "Before layer change", para almacezar la Z por si se va la luz poder reanudar.
+- Cambiados los nombres de los archivos GRANTRYLED para activar y desactivar las luces del puente,
+- Editada la macro M600 (pendiente de probar)
+- Añadido el G28 en la macro PRINT_START y eliminado de la configuración del GCode Inicial de la Impresora,
+  
 v1.2:
 - Añadidos archivos para el control de los leds del puente. (switchsgantryleds, switchgantryon y switchgantryoff)
 - Añadido en macros.cfg el encendido automático de las luces del puente al iniciar una impresión, y apagado automático al terminar.
