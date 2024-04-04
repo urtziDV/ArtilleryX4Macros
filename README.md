@@ -5,8 +5,6 @@ Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
 El perfil de OrcaSlicer ya incluye las configuraciones necesarias en los GCODE, por lo que solo funcionará si se realizan los MODS del manual.
 
 V1.5:
-- Corrección de la macro M600 para el cambio de color.
-- Eliminada la macro CARGA_LIMPIA que se usaba junto a la M600, ya no es necesaria.
 - Correcciones en el perfil de la impresora en OrcaSlicer. 
 	-- Gcode de pausa, Gcode de cambio de filamento y Gcode cambio de capa.
 	-- Textura del area imprimible.
