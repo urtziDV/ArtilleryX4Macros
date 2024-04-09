@@ -4,6 +4,25 @@ Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
 
 El perfil de OrcaSlicer ya incluye las configuraciones necesarias en los GCODE, por lo que solo funcionará si se realizan los MODS del manual.
 
+V1.6:
+- Corrección en la macro M600 para el cambio de color.ç
+- Eliminada la macro CARGA_LIMPIA que se usaba junto a la M600, ya no es necesaria.
+- Añadida la macro M300 para activar los pitidos. Gracias a @cristobalgc10 
+- Añadido pitido cuando se ejecuta la M600 para avisar del cambio de color.
+- Añadido el archivo politonos.cfg con politonos para el buzzer.
+	- Macro M300_MARIO con politono Super Mario Bros.
+	- Macro M300_IMPERIAL con politono Star Wars - Marcha Imperial.
+	- Macro M300_CARIBE con politono Piratas del Caribe.
+- Corrección en plr.cfg, la macro [gcode_macro RESUME_INTERRUPTED] tenia un "gcode =" en lugar de un "gcode:". Gracias a @MisterKrujidor
+- Actualizado el printer.cfg a la ultima version de Artillery, correspondiente al 19 de Marzo.
+- Cambiado en el printer.cfg la velocidad al hacer home del eje Z y al realizar la malla para ganar precision.
+- Añadido en el printer.cfg la configuración del buzzer para añadir pitidos. Gracias a @cristobalgc10
+- Modificado el G29 para poder definir desde el Gcode Inicial, el tamaño deseado de la malla. 
+	-- EJ: G29 PC4 para malla de 4x4 ... G29 PC9 para malla de 9x9.
+- Ajustes en el perfil del filamento en OrcaSlicer. 
+	-- Activado salto en Z automatico.
+	-- Salto en z al retraerse a 0.4mm.
+  
 V1.5:
 - Correcciones en el perfil de la impresora en OrcaSlicer. 
 	-- Gcode de pausa, Gcode de cambio de filamento y Gcode cambio de capa.
