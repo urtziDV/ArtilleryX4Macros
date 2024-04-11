@@ -1,5 +1,7 @@
 # MODS MACROS
 
+Accede a nuestra comunidad de TELEGRAM: https://t.me/SorporteArtilleryX4
+
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
 
 El perfil de OrcaSlicer ya incluye las configuraciones necesarias en los GCODE, por lo que todo funcionará perfectamente si se realizan las MODS del manual.
