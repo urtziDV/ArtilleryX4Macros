@@ -2,7 +2,7 @@
 
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0
 
-El perfil de OrcaSlicer ya incluye las configuraciones necesarias en los GCODE, por lo que solo funcionará si se realizan los MODS del manual.
+El perfil de OrcaSlicer ya incluye las configuraciones necesarias en los GCODE, por lo que todo funcionará perfectamente si se realizan las MODS del manual.
 
 V1.6:
 - Corrección en la macro M600 para el cambio de color.
