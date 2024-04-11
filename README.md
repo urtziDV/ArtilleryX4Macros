@@ -71,4 +71,4 @@ v1.1:
 ANTES DE NADA, HACED UNA COPIA DE SEGURIDAD DE VUESTRO PRINTER.CFG
 
 # INSTRUCCIONES
-Seguuid el manual en PDF incluido.
+Seguid el manual en PDF incluido.
