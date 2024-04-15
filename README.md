@@ -5,10 +5,10 @@ Accede a nuestra comunidad de TELEGRAM: https://t.me/SorporteArtilleryX4
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0. Se incluye entre los archivos, el perfil de OrcaSlicer (UDV) con los ajustes para la compatibilidad de las modificaciones de las macros del manual.
 
 V1.6.2:
-- Añadidas las posiciones para la X4 PLUS en printer.cfg.
+- Añadidas las posiciones para la X4 PLUS en printer.cfg. Gracias a @Tonymalone
 
 V1.6.1:
-- Añadidas las posiciones para la X4 PLUS en macros.cfg.
+- Añadidas las posiciones para la X4 PLUS en macros.cfg. Gracias a @Tonymalone
 
 V1.6:
 - Corrección en la macro M600 para el cambio de color.
