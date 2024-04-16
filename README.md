@@ -4,6 +4,9 @@ Accede a nuestra comunidad de TELEGRAM: https://t.me/SorporteArtilleryX4
 
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0. Se incluye entre los archivos, el perfil de OrcaSlicer (UDV) con los ajustes para la compatibilidad de las modificaciones de las macros del manual.
 
+V1.7:
+- Generados los archivos para cada versión, X4 PLUS y X4 PRO. Ya no es necesario editar nada en los archivos, directamente introducir el de tu modelo y listo.
+  
 V1.6.2:
 - Añadidas las posiciones para la X4 PLUS en printer.cfg. Gracias a @Tonymalone
 
