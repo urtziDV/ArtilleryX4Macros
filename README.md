@@ -4,6 +4,9 @@ Accede a nuestra comunidad de TELEGRAM: https://t.me/SorporteArtilleryX4
 
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0. Se incluye entre los archivos, el perfil de OrcaSlicer (UDV) con los ajustes para la compatibilidad de las modificaciones de las macros del manual.
 
+V1.9:
+- Añadida correccion en la macro NOZZLE_WIPE. Ahora se hace un cero al extrusor antes de ejecutar el movimiento.
+  
 V1.8:
 - Añadidas nuevas macros EXTRUIR y RETRAER para ejecutar las ordenes del filamento desde Fluidd, por si la pantalla no funciona.
 - Añadidas nuevas macros para el PID de la Cama y del Extrusor. Gracias a @Mendi107
