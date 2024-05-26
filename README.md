@@ -4,6 +4,9 @@ Accede a nuestra comunidad de TELEGRAM: https://t.me/SorporteArtilleryX4
 
 Todas las modificaciones han sido probadas y funcionan con OrcaSlicer v2.0.0. Se incluye entre los archivos, el perfil de OrcaSlicer (UDV) con los ajustes para la compatibilidad de las modificaciones de las macros del manual.
 
+V2.0:
+- Reorganizadas las carpetas para los archivos de las versiones de los diferentes firmwares, STOCK(ARTILLERY) y MOD (TORTILLERY)
+  
 V1.9:
 - Añadida correccion en la macro NOZZLE_WIPE. Ahora se hace un cero al extrusor antes de ejecutar el movimiento. Gracias a @Carlos_AD
   
